@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="XJW的个人主页,记录学习、创作与热爱。">
+  <title>X · 个人主页</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="返回首页">L<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="打开导航菜单" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">关于我</a>
+        <a href="#interests">兴趣</a>
+        <a href="#skills">技能</a>
+        <a href="#contact">联系我</a>
+      </div>
+      <a class="nav-cta" href="#contact">一起交流 <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> 你好,我是X</p>
+        <h1 id="hero-title">用好奇心，<br>把生活写成<span>作品。</span></h1>
+        <p class="intro">一名热爱设计与技术的大学生。我相信每一次认真记录、每一个小小的创意，都会让未来更闪闪发光。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#about">认识我 <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#contact">给我留言 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta" aria-label="个人标签">
+          <div><strong>2026</strong><span>正在探索</span></div>
+          <div><strong>∞</strong><span>保持好奇</span></div>
+          <div><strong>01</strong><span>认真生活</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="sun"></div>
+        <div class="photo-frame">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="林安的个人头像">
+        </div>
+        <div class="sticker sticker-star" aria-hidden="true">✦</div>
+        <div class="sticker sticker-note">hello!<br><span>nice to meet you</span></div>
+      </div>
+    </section>
+
+    <section class="about section container" id="about" aria-labelledby="about-title">
+      <div class="section-heading">
+        <p class="eyebrow"><span></span> ABOUT ME</p>
+        <h2 id="about-title">在热爱里，<br>慢慢长成自己。</h2>
+      </div>
+      <div class="about-content">
+        <p class="lead">我来自中国，目前是一名在校大学生。课余时间，我喜欢把灵感变成看得见的东西：一张海报、一个页面，或是一段值得回味的文字。</p>
+        <p>我享受学习新事物时的专注，也珍惜和朋友分享日常的瞬间。比起匆忙抵达终点，我更希望一路保持真诚、勇敢和一点点天马行空。</p>
+        <a class="text-link" href="#interests">看看我的日常 <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="interests section" id="interests" aria-labelledby="interest-title">
+      <div class="container">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow"><span></span> MY LITTLE WORLD</p>
+            <h2 id="interest-title">我的兴趣清单</h2>
+          </div>
+          <p>把平凡的日子，过得有一点意思。</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card card-photo">
+            <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="打开的书本与阅读空间">
+            <div><span>01</span><h3>阅读与写作</h3><p>在文字里旅行，也记录自己的小宇宙。</p></div>
+          </article>
+          <article class="interest-card lavender">
+            <div class="card-icon" aria-hidden="true">♫</div>
+            <span>02</span><h3>音乐现场</h3><p>耳机里的旋律，是通往好心情的秘密通道。</p>
+            <div class="wave" aria-hidden="true">∿ ∿ ∿ ∿</div>
+          </article>
+          <article class="interest-card peach">
+            <div class="card-icon" aria-hidden="true">⌁</div>
+            <span>03</span><h3>摄影漫游</h3><p>按下快门，收藏光线、街道与不期而遇的温柔。</p>
+            <div class="mini-sun" aria-hidden="true"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section container" id="skills" aria-labelledby="skills-title">
+      <div class="skills-art" aria-hidden="true"><span>✳</span><span>✦</span><span>✳</span></div>
+      <div class="skills-content">
+        <p class="eyebrow"><span></span> WHAT I DO</p>
+        <h2 id="skills-title">正在解锁的<br><em>技能树</em></h2>
+        <p>技术是表达想法的另一种语言。以下是我正在学习和持续打磨的能力。</p>
+        <div class="skill-list">
+          <div class="skill"><div><span>HTML / CSS</span><b>85%</b></div><i style="--level:85%"></i></div>
+          <div class="skill"><div><span>视觉设计</span><b>75%</b></div><i style="--level:75%"></i></div>
+          <div class="skill"><div><span>摄影与剪辑</span><b>70%</b></div><i style="--level:70%"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <p class="eyebrow light"><span></span> LET'S CONNECT</p>
+        <h2 id="contact-title">想聊点什么？<br><em>随时来找我。</em></h2>
+        <p>无论是学习交流、灵感碰撞，还是一句简单的问候，我都很高兴收到你的消息。</p>
+        <a class="button light-button" href="mailto:hello@linan.com">xglacier2.6@gmail.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a class="brand" href="#home">L<span>.</span></a>
+    <p>© 2026 Lin An. Made with curiosity.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
